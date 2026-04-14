@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B46185CA-1262-4D13-B835-B95857CA1613}|LibraryDesktop\\LibraryDesktop.csproj|C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\librarydesktop\\windows\\mainlibrary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B46185CA-1262-4D13-B835-B95857CA1613}|LibraryDesktop\\LibraryDesktop.csproj|c:\\users\\dasha\\desktop\\education\\programs\\librarydesktop\\librarydesktop\\windows\\mainlibrary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B46185CA-1262-4D13-B835-B95857CA1613}|LibraryDesktop\\LibraryDesktop.csproj|solutionrelative:librarydesktop\\windows\\mainlibrary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -22,8 +22,8 @@
               "Title": "MainLibrary.xaml",
               "DocumentMoniker": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Windows\\MainLibrary.xaml",
               "RelativeDocumentMoniker": "LibraryDesktop\\Windows\\MainLibrary.xaml",
-              "ToolTip": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Windows\\MainLibrary.xaml",
-              "RelativeToolTip": "LibraryDesktop\\Windows\\MainLibrary.xaml",
+              "ToolTip": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Windows\\MainLibrary.xaml*",
+              "RelativeToolTip": "LibraryDesktop\\Windows\\MainLibrary.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-14T09:33:46.42Z",
               "EditorCaption": ""

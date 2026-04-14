@@ -8,8 +8,35 @@
         Title="Библиотека" 
         Height="450" 
         Width="800"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        Icon="/Resources/LibraryIcon.ico">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <!--#region StackPanel Row 0-->
+        <StackPanel Orientation="Vertical"
+                    Grid.Row="0">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/Resources/BackgroudLibrary.jpg"
+                            Stretch="UniformToFill"
+                            Opacity="0.4"/>
+            </StackPanel.Background>
+            <TextBlock Text="Библиотека"
+                       HorizontalAlignment="Center"
+                       FontSize="20"
+                       FontStyle="Italic"
+                       FontWeight="UltraBold"/>
+            <TextBlock Text="Добро пожаловать!"
+                       HorizontalAlignment="Center"
+                       Margin="0,10,0,0"
+                       FontSize="15"
+                       FontStyle="Italic"
+                       FontWeight="Heavy"/>
+        </StackPanel>
+        <!--#endregion-->
         
     </Grid>
 </Window>
