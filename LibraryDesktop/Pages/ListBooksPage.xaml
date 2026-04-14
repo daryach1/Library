@@ -10,6 +10,50 @@
       Background="White">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--#region StackPanel Row 0-->
+        <StackPanel Orientation="Horizontal"
+                    Background="#efe2cf">
+            <Button x:Name="AddBookButton"
+                    Width="100"
+                    Height="30"
+                    Content="Добавить книгу"
+                    Margin="10,0,0,0"
+                    Background="White"/>
+        </StackPanel>
+        <!--#endregion-->
+        <!--#region ListView Row 1-->
+        <ListView x:Name="BooksListView"
+                  Grid.Row="1"
+                  SizeChanged="BooksListView_SizeChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Название"
+                                    x:Name="TitleColumn"
+                                    DisplayMemberBinding="{Binding Title}"
+                                    Width="200"/>
+                    <GridViewColumn Header="Жанр"
+                                    x:Name="GenreColumn"
+                                    DisplayMemberBinding="{Binding Genre}"
+                                    Width="200"/>
+                    <GridViewColumn Header="Автор"
+                                    x:Name="AuthorColumn"
+                                    DisplayMemberBinding="{Binding Author}"
+                                    Width="200"/>
+                    <GridViewColumn Header="Количество экземпляров"
+                                    x:Name="TotalCopiesColumn"
+                                    DisplayMemberBinding="{Binding TotalCopies}"
+                                    Width="100"/>
+                    <GridViewColumn Header="Количество доступных книг"
+                                    x:Name="AvailableCopiesColumn"
+                                    DisplayMemberBinding="{Binding AvailableCopies}"
+                                    Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <!--#endregion-->
     </Grid>
 </Page>

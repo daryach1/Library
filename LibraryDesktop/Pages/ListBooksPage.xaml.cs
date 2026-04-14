@@ -24,5 +24,20 @@ namespace LibraryDesktop.Pages
         {
             InitializeComponent();
         }
+
+        private void BooksListView_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            if (e.NewSize.Width > 0)
+            {
+                double totalWidth = e.NewSize.Width;
+
+                TitleColumn.Width = totalWidth * 0.3;
+                GenreColumn.Width = totalWidth * 0.2;
+                AuthorColumn.Width = totalWidth * 0.2;
+                TotalCopiesColumn.Width = totalWidth * 0.15;
+                AvailableCopiesColumn.Width = totalWidth * 0.15;
+                
+            }
+        }
     }
 }

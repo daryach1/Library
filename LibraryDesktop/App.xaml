@@ -4,6 +4,27 @@
              xmlns:local="clr-namespace:LibraryDesktop"
              StartupUri="Windows/MainLibrary.xaml">
     <Application.Resources>
-         
+        <Style TargetType="GridViewColumnHeader">
+            <Setter Property="HorizontalContentAlignment"
+                    Value="Center"/>
+            <Setter Property="ContentTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}"
+                                   TextWrapping="Wrap"
+                                   TextAlignment="Center"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   FontSize="14"
+                                   FontWeight="Bold"/>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Background"
+                    Value="White"/>
+            <Setter Property="BorderBrush"
+                    Value="Black"/>
+        </Style>
+
     </Application.Resources>
 </Application>

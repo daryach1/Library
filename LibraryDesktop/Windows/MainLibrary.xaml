@@ -13,7 +13,6 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
-            <RowDefinition Height="60"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <!--#region StackPanel Row 0-->
@@ -37,6 +36,10 @@
                        FontWeight="Heavy"/>
         </StackPanel>
         <!--#endregion-->
-        
+        <!--#region Frame Row 1-->
+        <Frame x:Name="MainFrame"
+               Grid.Row="1"
+               NavigationUIVisibility="Hidden"/>
+        <!--#endregion-->
     </Grid>
 </Window>
