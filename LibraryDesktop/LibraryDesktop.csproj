@@ -59,6 +59,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\AddBookWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\MainLibrary.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,6 +75,9 @@
     <Compile Include="Classes\FrameManager.cs" />
     <Compile Include="Pages\ListBooksPage.xaml.cs">
       <DependentUpon>ListBooksPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddBookWindow.xaml.cs">
+      <DependentUpon>AddBookWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\MainLibrary.xaml.cs">
       <DependentUpon>MainLibrary.xaml</DependentUpon>
@@ -103,12 +110,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Resource Include="Resources\LibraryIcon.ico" />
+    <Resource Include="Resources\LibraryIcon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\BackgroudLibrary.jpg" />
+    <Resource Include="Resources\BackgroudLibrary.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

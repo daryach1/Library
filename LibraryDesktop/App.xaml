@@ -25,6 +25,36 @@
             <Setter Property="BorderBrush"
                     Value="Black"/>
         </Style>
-
+        <Style TargetType="TextBlock"
+               x:Key="TextBlockStyle">
+            <Setter Property="HorizontalAlignment"
+                    Value="Center"/>
+            <Setter Property="VerticalAlignment"
+                    Value="Center"/>
+            <Setter Property="FontSize"
+                    Value="16"/>
+            <Setter Property="FontWeight"
+                    Value="DemiBold"/>
+        </Style>
+        <Style TargetType="TextBox"
+               x:Key="TextBoxStyle">
+            <Setter Property="Height"
+                    Value="35"/>
+            <Setter Property="VerticalContentAlignment"
+                    Value="Center"/>
+            <Setter Property="FontSize"
+                    Value="14"/>
+        </Style>
+        <Style TargetType="Button"
+               x:Key="ButtonStyle">
+            <Setter Property="Width"
+                    Value="110"/>
+            <Setter Property="Height"
+                    Value="30"/>
+            <Setter Property="Background"
+                    Value="White"/>
+            <Setter Property="FontSize"
+                    Value="14"/>
+        </Style>
     </Application.Resources>
 </Application>

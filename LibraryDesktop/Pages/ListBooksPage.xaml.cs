@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LibraryDesktop.Classes;
+using LibraryDesktop.Windows;
+using System;
+using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
 
 namespace LibraryDesktop.Pages
 {
@@ -20,10 +13,16 @@ namespace LibraryDesktop.Pages
     /// </summary>
     public partial class ListBooksPage : Page
     {
+        private static string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+        private static string filePath = System.IO.Path.Combine(baseDirectory, "book.txt");
+        private ObservableCollection<Book> books = new ObservableCollection<Book>();
         public ListBooksPage()
         {
             InitializeComponent();
+            BooksListView.ItemsSource = books;
         }
+
+
 
         private void BooksListView_SizeChanged(object sender, SizeChangedEventArgs e)
         {
@@ -38,6 +37,17 @@ namespace LibraryDesktop.Pages
                 AvailableCopiesColumn.Width = totalWidth * 0.15;
                 
             }
+        }
+
+        private void AddBookButton_Click(object sender, RoutedEventArgs e)
+        {
+            AddBookWindow addBook = new AddBookWindow();
+            addBook.Show();
+        }
+
+        private void UpdateDataButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

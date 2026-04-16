@@ -18,11 +18,15 @@
         <StackPanel Orientation="Horizontal"
                     Background="#efe2cf">
             <Button x:Name="AddBookButton"
-                    Width="100"
-                    Height="30"
                     Content="Добавить книгу"
                     Margin="10,0,0,0"
-                    Background="White"/>
+                    Style="{StaticResource ButtonStyle}"
+                    Click="AddBookButton_Click"/>
+            <Button x:Name="UpdateDataButton"
+                    Content="Обновить"
+                    Margin="10,0,0,0"
+                    Style="{StaticResource ButtonStyle}"
+                    Click="UpdateDataButton_Click"/>
         </StackPanel>
         <!--#endregion-->
         <!--#region ListView Row 1-->

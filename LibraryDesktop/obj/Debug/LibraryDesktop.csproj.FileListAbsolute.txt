@@ -16,3 +16,5 @@ C:\Users\Dasha\Desktop\Education\Programs\LibraryDesktop\LibraryDesktop\obj\Debu
 C:\Users\Dasha\Desktop\Education\Programs\LibraryDesktop\LibraryDesktop\obj\Debug\Pages\ListBooksPage.g.cs
 C:\Users\Dasha\Desktop\Education\Programs\LibraryDesktop\LibraryDesktop\obj\Debug\Pages\ListBooksPage.baml
 C:\Users\Dasha\Desktop\Education\Programs\LibraryDesktop\LibraryDesktop\obj\Debug\App.baml
+C:\Users\Dasha\Desktop\Education\Programs\LibraryDesktop\LibraryDesktop\obj\Debug\Windows\AddBookWindow.g.cs
+C:\Users\Dasha\Desktop\Education\Programs\LibraryDesktop\LibraryDesktop\obj\Debug\Windows\AddBookWindow.baml
