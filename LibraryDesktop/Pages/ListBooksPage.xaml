@@ -13,6 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="45"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
         <!--#region StackPanel Row 0-->
         <StackPanel Orientation="Horizontal"
@@ -33,6 +34,34 @@
         <ListView x:Name="BooksListView"
                   Grid.Row="1"
                   SizeChanged="BooksListView_SizeChanged">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Margin" 
+                            Value="0,0,0,1"/>
+                    <Setter Property="BorderBrush" 
+                            Value="LightGray"/>
+                    <Setter Property="BorderThickness" 
+                            Value="0,0,0,1"/>
+                    <Setter Property="FontSize"
+                            Value="16"/>
+                    <Setter Property="HorizontalContentAlignment"
+                            Value="Center"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" 
+                                 Value="True">
+                            <Setter Property="Background" 
+                                    Value="#ccba8b"/>
+                            <Setter Property="FontWeight" 
+                                    Value="Bold"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" 
+                                 Value="True">
+                            <Setter Property="Background" 
+                                    Value="LightGreen"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.ItemContainerStyle>
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Название"
@@ -58,6 +87,31 @@
                 </GridView>
             </ListView.View>
         </ListView>
+        <!--#endregion-->
+        <!--#region Grid and StackPanel Row 2-->
+        <Grid Grid.Row="2"
+              Background="#efe2cf">
+            <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right">
+                <TextBlock Text="Общее кол-во книг: "
+                           Style="{StaticResource TextBlockStyle}"/>
+                <Label x:Name="TotalBookLabel"
+                       FontSize="16"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Margin="0,0,10,0"/>
+                <TextBlock Text="Доступное кол-во в библиотеке: "
+                           Style="{StaticResource TextBlockStyle}"
+                           Margin="20,0,0,0"/>
+                <Label x:Name="TotalAvailableBookLabel"
+                       FontSize="16"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Margin="0,0,10,0"/>
+            </StackPanel>
+        </Grid>
         <!--#endregion-->
     </Grid>
 </Page>

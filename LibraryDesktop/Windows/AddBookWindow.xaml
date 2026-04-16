@@ -8,7 +8,12 @@
         Title="Добавить книгу" 
         Height="400" 
         Width="600"
-        Icon="/Resources/LibraryIcon.ico">
+        Icon="/Resources/LibraryIcon.ico"
+        WindowStartupLocation="CenterScreen"
+        MinHeight="300"
+        MinWidth="400"
+        MaxHeight="400"
+        MaxWidth="600">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
