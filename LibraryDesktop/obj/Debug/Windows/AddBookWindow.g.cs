@@ -108,7 +108,7 @@ namespace LibraryDesktop.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/LibraryDesktop;component/windows/addbookwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Библиотека;component/windows/addbookwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Windows\AddBookWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

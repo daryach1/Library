@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/book.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("libraryicon.ico")]
 
 

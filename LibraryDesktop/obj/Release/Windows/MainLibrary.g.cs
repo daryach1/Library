@@ -60,7 +60,7 @@ namespace LibraryDesktop.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Библиотека;component/windows/mainlibrary.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/LibraryDesktop;component/windows/mainlibrary.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Windows\MainLibrary.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
