@@ -98,8 +98,22 @@ namespace LibraryDesktop.Windows
                 {
                     ClearError(field);
                 }
-            }
 
+                if(int.Parse(field.Text)<0)
+                {
+                    MarkAsError(field, "Введите положительное число");
+                    isValid=false;
+                }
+                else
+                {
+                    ClearError(field);
+                }
+            }
+            if (int.Parse(AvailableCopiesTextBox.Text) > int.Parse(TotalCopiesTextBox.Text))
+            {
+                MarkAsError(AvailableCopiesTextBox, "Значение доступных книг не может быть больше общего количества");
+                isValid = false;
+            }
             return isValid;
         }
 
