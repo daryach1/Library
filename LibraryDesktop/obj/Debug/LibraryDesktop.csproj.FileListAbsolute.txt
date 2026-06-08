@@ -22,3 +22,13 @@ C:\Users\Dasha\Desktop\Education\Programs\LibraryDesktop\LibraryDesktop\obj\Debu
 C:\Users\Dasha\Desktop\Education\Programs\LibraryDesktop\LibraryDesktop\obj\Debug\Библиотека.application
 C:\Users\Dasha\Desktop\Education\Programs\LibraryDesktop\LibraryDesktop\obj\Debug\Библиотека.exe
 C:\Users\Dasha\Desktop\Education\Programs\LibraryDesktop\LibraryDesktop\obj\Debug\Библиотека.pdb
+C:\Users\user\Source\Repos\Library\LibraryDesktop\obj\Debug\LibraryDesktop.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\Library\LibraryDesktop\obj\Debug\Библиотека.exe.config
+C:\Users\user\Source\Repos\Library\LibraryDesktop\obj\Debug\Pages\ListBooksPage.g.cs
+C:\Users\user\Source\Repos\Library\LibraryDesktop\obj\Debug\Windows\AddBookWindow.g.cs
+C:\Users\user\Source\Repos\Library\LibraryDesktop\obj\Debug\Windows\MainLibrary.g.cs
+C:\Users\user\Source\Repos\Library\LibraryDesktop\obj\Debug\App.g.cs
+C:\Users\user\Source\Repos\Library\LibraryDesktop\obj\Debug\Библиотека_MarkupCompile.cache
+C:\Users\user\Source\Repos\Library\LibraryDesktop\obj\Debug\Библиотека_MarkupCompile.lref
+C:\Users\user\Source\Repos\Library\LibraryDesktop\obj\Debug\Библиотека.exe
+C:\Users\user\Source\Repos\Library\LibraryDesktop\obj\Debug\Библиотека.pdb
