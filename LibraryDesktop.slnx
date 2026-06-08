@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="LibraryDesktop.Tests/LibraryDesktop.Tests.csproj" Id="0148af45-82aa-467a-ab31-ed514a59e7b0" />
   <Project Path="LibraryDesktop/LibraryDesktop.csproj" Id="b46185ca-1262-4d13-b835-b95857ca1613" />
 </Solution>

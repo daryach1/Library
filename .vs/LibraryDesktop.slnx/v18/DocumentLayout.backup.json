@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B46185CA-1262-4D13-B835-B95857CA1613}|LibraryDesktop\\LibraryDesktop.csproj|c:\\users\\dasha\\desktop\\education\\programs\\librarydesktop\\librarydesktop\\pages\\listbookspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0148AF45-82AA-467A-AB31-ED514A59E7B0}|LibraryDesktop.Tests\\LibraryDesktop.Tests.csproj|c:\\users\\dasha\\desktop\\education\\programs\\librarydesktop\\librarydesktop.tests\\listbookpagedatatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0148AF45-82AA-467A-AB31-ED514A59E7B0}|LibraryDesktop.Tests\\LibraryDesktop.Tests.csproj|solutionrelative:librarydesktop.tests\\listbookpagedatatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0148AF45-82AA-467A-AB31-ED514A59E7B0}|LibraryDesktop.Tests\\LibraryDesktop.Tests.csproj|c:\\users\\dasha\\desktop\\education\\programs\\librarydesktop\\librarydesktop.tests\\addbookwindowvalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0148AF45-82AA-467A-AB31-ED514A59E7B0}|LibraryDesktop.Tests\\LibraryDesktop.Tests.csproj|solutionrelative:librarydesktop.tests\\addbookwindowvalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0148AF45-82AA-467A-AB31-ED514A59E7B0}|LibraryDesktop.Tests\\LibraryDesktop.Tests.csproj|c:\\users\\dasha\\desktop\\education\\programs\\librarydesktop\\librarydesktop.tests\\booktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0148AF45-82AA-467A-AB31-ED514A59E7B0}|LibraryDesktop.Tests\\LibraryDesktop.Tests.csproj|solutionrelative:librarydesktop.tests\\booktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46185CA-1262-4D13-B835-B95857CA1613}|LibraryDesktop\\LibraryDesktop.csproj|C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\librarydesktop\\pages\\listbookspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B46185CA-1262-4D13-B835-B95857CA1613}|LibraryDesktop\\LibraryDesktop.csproj|solutionrelative:librarydesktop\\pages\\listbookspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -34,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Classes\\Book.cs",
               "RelativeDocumentMoniker": "LibraryDesktop\\Classes\\Book.cs",
@@ -51,18 +63,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListBookPageDataTests.cs",
+              "DocumentMoniker": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop.Tests\\ListBookPageDataTests.cs",
+              "RelativeDocumentMoniker": "LibraryDesktop.Tests\\ListBookPageDataTests.cs",
+              "ToolTip": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop.Tests\\ListBookPageDataTests.cs",
+              "RelativeToolTip": "LibraryDesktop.Tests\\ListBookPageDataTests.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwEUAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T08:20:16.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainLibrary.xaml",
-              "DocumentMoniker": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Windows\\MainLibrary.xaml",
-              "RelativeDocumentMoniker": "LibraryDesktop\\Windows\\MainLibrary.xaml",
-              "ToolTip": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Windows\\MainLibrary.xaml",
-              "RelativeToolTip": "LibraryDesktop\\Windows\\MainLibrary.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-14T09:33:46.42Z"
+              "Title": "AddBookWindowValidationTests.cs",
+              "DocumentMoniker": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop.Tests\\AddBookWindowValidationTests.cs",
+              "RelativeDocumentMoniker": "LibraryDesktop.Tests\\AddBookWindowValidationTests.cs",
+              "ToolTip": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop.Tests\\AddBookWindowValidationTests.cs",
+              "RelativeToolTip": "LibraryDesktop.Tests\\AddBookWindowValidationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T08:08:24.469Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BookTests.cs",
+              "DocumentMoniker": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop.Tests\\BookTests.cs",
+              "RelativeDocumentMoniker": "LibraryDesktop.Tests\\BookTests.cs",
+              "ToolTip": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop.Tests\\BookTests.cs",
+              "RelativeToolTip": "LibraryDesktop.Tests\\BookTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T07:49:54.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AddBookWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Windows\\AddBookWindow.xaml.cs",
               "RelativeDocumentMoniker": "LibraryDesktop\\Windows\\AddBookWindow.xaml.cs",
@@ -74,19 +114,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ListBooksPage.xaml",
               "DocumentMoniker": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Pages\\ListBooksPage.xaml",
               "RelativeDocumentMoniker": "LibraryDesktop\\Pages\\ListBooksPage.xaml",
               "ToolTip": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Pages\\ListBooksPage.xaml",
               "RelativeToolTip": "LibraryDesktop\\Pages\\ListBooksPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-16T11:12:52.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T11:12:52.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "MainLibrary.xaml",
+              "DocumentMoniker": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Windows\\MainLibrary.xaml",
+              "RelativeDocumentMoniker": "LibraryDesktop\\Windows\\MainLibrary.xaml",
+              "ToolTip": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Windows\\MainLibrary.xaml",
+              "RelativeToolTip": "LibraryDesktop\\Windows\\MainLibrary.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T09:33:46.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ListBooksPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Pages\\ListBooksPage.xaml.cs",
               "RelativeDocumentMoniker": "LibraryDesktop\\Pages\\ListBooksPage.xaml.cs",
@@ -98,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AddBookWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Dasha\\Desktop\\Education\\Programs\\LibraryDesktop\\LibraryDesktop\\Windows\\AddBookWindow.xaml",
               "RelativeDocumentMoniker": "LibraryDesktop\\Windows\\AddBookWindow.xaml",
