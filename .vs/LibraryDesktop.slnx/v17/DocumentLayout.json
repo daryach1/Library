@@ -3,8 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0148AF45-82AA-467A-AB31-ED514A59E7B0}|LibraryDesktop.Tests\\LibraryDesktop.Tests.csproj|c:\\users\\user\\source\\repos\\library\\librarydesktop.tests\\booklogictests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0148AF45-82AA-467A-AB31-ED514A59E7B0}|LibraryDesktop.Tests\\LibraryDesktop.Tests.csproj|solutionrelative:librarydesktop.tests\\booklogictests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|LibraryDesktop||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46185CA-1262-4D13-B835-B95857CA1613}|LibraryDesktop\\LibraryDesktop.csproj|c:\\users\\user\\source\\repos\\library\\librarydesktop\\windows\\addbookwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B46185CA-1262-4D13-B835-B95857CA1613}|LibraryDesktop\\LibraryDesktop.csproj|solutionrelative:librarydesktop\\windows\\addbookwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46185CA-1262-4D13-B835-B95857CA1613}|LibraryDesktop\\LibraryDesktop.csproj|c:\\users\\user\\source\\repos\\library\\librarydesktop\\windows\\mainlibrary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B46185CA-1262-4D13-B835-B95857CA1613}|LibraryDesktop\\LibraryDesktop.csproj|solutionrelative:librarydesktop\\windows\\mainlibrary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46185CA-1262-4D13-B835-B95857CA1613}|LibraryDesktop\\LibraryDesktop.csproj|c:\\users\\user\\source\\repos\\library\\librarydesktop\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|f8d6553f-f752-4dbf-acb6-f291b744a792"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +24,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddBookWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Library\\LibraryDesktop\\Windows\\AddBookWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LibraryDesktop\\Windows\\AddBookWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Library\\LibraryDesktop\\Windows\\AddBookWindow.xaml.cs",
+              "RelativeToolTip": "LibraryDesktop\\Windows\\AddBookWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T10:13:26.864Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -23,14 +47,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookLogicTests.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Library\\LibraryDesktop.Tests\\BookLogicTests.cs",
-              "RelativeDocumentMoniker": "LibraryDesktop.Tests\\BookLogicTests.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Library\\LibraryDesktop.Tests\\BookLogicTests.cs",
-              "RelativeToolTip": "LibraryDesktop.Tests\\BookLogicTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T09:48:42.436Z",
+              "Title": "LibraryDesktop",
+              "DocumentMoniker": "C:\\Users\\user\\Source\\Repos\\Library\\LibraryDesktop\\LibraryDesktop.csproj",
+              "RelativeDocumentMoniker": "LibraryDesktop\\LibraryDesktop.csproj",
+              "ToolTip": "C:\\Users\\user\\Source\\Repos\\Library\\LibraryDesktop\\LibraryDesktop.csproj",
+              "RelativeToolTip": "LibraryDesktop\\LibraryDesktop.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-08T10:12:55.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLibrary.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Library\\LibraryDesktop\\Windows\\MainLibrary.xaml",
+              "RelativeDocumentMoniker": "LibraryDesktop\\Windows\\MainLibrary.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Library\\LibraryDesktop\\Windows\\MainLibrary.xaml",
+              "RelativeToolTip": "LibraryDesktop\\Windows\\MainLibrary.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-08T09:53:02.921Z",
               "EditorCaption": ""
             }
           ]

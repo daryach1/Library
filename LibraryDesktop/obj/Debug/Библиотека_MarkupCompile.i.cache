@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Dasha\Desktop\Education\Programs\LibraryDesktop\LibraryDesktop\obj\Debug\
+C:\Users\user\source\repos\Library\LibraryDesktop\obj\Debug\
 LibraryDesktop
 none
 false
 DEBUG;TRACE
-C:\Users\Dasha\Desktop\Education\Programs\LibraryDesktop\LibraryDesktop\App.xaml
+C:\Users\user\source\repos\Library\LibraryDesktop\App.xaml
 3252302607
 
 101108006030
 13-1310406943
 Pages\ListBooksPage.xaml;Windows\AddBookWindow.xaml;Windows\MainLibrary.xaml;
 
-False
+True
 

@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="http://desktop-naite7o/LibraryDesktop/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0.application" />
+    <deploymentProvider codebase="http://mrfolken/LibraryDesktop/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
@@ -21,7 +21,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>L9XTpux3sSpqu7DweXz5n4oyTmx7rOsmJdvlVjuw6Cc=</dsig:DigestValue>
+        <dsig:DigestValue>uLL8BYEa9y5N2fKniu5WwMnyE10UhWNENdSzME6baCM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
